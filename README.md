@@ -22,24 +22,27 @@ $ npm run start:dev
 
 ## Endpoints
 
-# save orders from the smart contract to the database
+### save orders from the smart contract to the database
 
 ( get metod )
 /check/give
 
-# Find counter orders
+### Find counter orders
 
 ( get metod )
 /endpoint/order-list
 
-# Send matches to smart contract
+### Send matches to smart contract
 
 ( post metod )
 /endpoint/order-match
+
+```
 {
 "match":
-{
-"id1": "???",
-"id2": "???"
+  {
+    "id1": "???",
+    "id2": "???"
+  }
 }
-}
+```
